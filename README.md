@@ -8,6 +8,7 @@ Projeto completo de FTP (File Transfer Protocol) com:
 
 🔗 Comunicação via protocolo FTP real
 
+
 📌 Descrição do Projeto
 
 Este projeto implementa um sistema de transferência de arquivos baseado no protocolo FTP, utilizando o modelo cliente-servidor.
@@ -28,6 +29,7 @@ Listagem de diretórios
 
 Exclusão de arquivos
 
+
 🚀 Funcionalidades
 🖥 Servidor (Python)
 
@@ -42,6 +44,7 @@ Logs em tempo real
 Upload e download de arquivos
 
 Monitoramento de conexões
+
 
 💻 Cliente (Java)
 
@@ -59,12 +62,15 @@ Exclusão de arquivos
 
 Logs de operações
 
+
 🛠 Tecnologias utilizadas
+
 Backend (Servidor)
 
 Python 3
 
 pyftpdlib
+
 
 Cliente
 
@@ -74,11 +80,13 @@ Swing
 
 Apache Commons Net
 
+
 IDE
 
 NetBeans
 
 Cursor
+
 
 ## 📦 Instalação
 
@@ -96,6 +104,7 @@ Executar o servidor:
 python serverFTP.py
 ```
 
+
 ▶️ Como Executar (Cliente e Servidor)
 🔹 1. Iniciar o Servidor
 
@@ -110,6 +119,7 @@ Senha
 Pasta compartilhada
 
 Clique em "Iniciar Servidor"
+
 
 🔹 2. Executar o Cliente
 
@@ -127,6 +137,7 @@ Usuário e senha
 
 Clique em Conectar
 
+
 🔐 Explicação da Criptografia
 
 O sistema utiliza o protocolo FTP tradicional, que não possui criptografia nativa.
@@ -135,15 +146,6 @@ Isso significa que:
 
 Usuário e senha são enviados em texto simples
 
-Arquivos não são criptografados durante a transmissão
-
-⚠️ Em aplicações reais, recomenda-se:
-
-FTPS (FTP com SSL/TLS)
-
-SFTP (baseado em SSH)
-
-Neste projeto, o foco é didático, demonstrando o funcionamento do FTP puro.
 
 🏗 Arquitetura da Solução
 
@@ -171,6 +173,7 @@ Upload
 
 Download
 
+
 🔹 Cliente
 
 Implementado em Java com Swing
@@ -183,6 +186,7 @@ Envio de comandos FTP
 
 Manipulação de arquivos
 
+
 🔹 Comunicação
 
 Protocolo: FTP
@@ -192,6 +196,7 @@ Transporte: TCP
 Porta utilizada: 2121
 
 Modo: Passivo (PASV)
+
 
 🔹 Fluxo de Funcionamento
 
@@ -213,6 +218,7 @@ Servidor processa e responde
 
 Transferência ocorre em uma conexão de dados separada
 
+
 💡 Observações Importantes
 
 Uso de modo passivo, evitando problemas com firewall
@@ -224,6 +230,7 @@ Verificação de conexão com o servidor no cliente
 Uso de threads no servidor, evitando travamento da interface
 
 Sistema com interface gráfica completa
+
 
 🎯 Conclusão
 
